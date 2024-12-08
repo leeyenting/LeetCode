@@ -6,6 +6,7 @@ class Solution(object):
         :rtype: str
         """
         result=""
+        
         if len(word1)==len(word2):
             for i in range(len(word1)):
                 result = result + word1[i] + word2[i]
@@ -18,7 +19,6 @@ class Solution(object):
                 result = result + word1[i] + word2[i]
             result += word1[i+1:]
         
-        #result = ''.join(sorted(set(result), key=result.index))
         return result
             
             
