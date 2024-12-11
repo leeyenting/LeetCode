@@ -15,8 +15,7 @@ class Solution(object):
         for i in range(1, length_nums-k+1):
             sum = sum-nums[i-1]+nums[i+k-1]
             result.append(sum)
-            #sum=0
-        #return result
+
         return max(result)/float(k)
             
         
