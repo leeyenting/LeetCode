@@ -14,8 +14,6 @@ class Solution(object):
                 res1.append(nums1_new[i])
             else:
                 nums2_new.remove(nums1_new[i])
- 
-
-        
+   
         return [res1, nums2_new]
         
